@@ -10,4 +10,7 @@ nav:
       - Modules: modules.md
 
 theme:
-  name: material
+  name: readthedocs
+  color_mode: light
+  nav_style: primary
+  highlightjs: true
