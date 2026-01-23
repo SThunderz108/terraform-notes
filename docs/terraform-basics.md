@@ -3,7 +3,7 @@
 ## What is Terraform?
 Terraform is an Infrastructure as Code (IaC) tool by HashiCorp.
 
-Suppose you are the Devops engineer and you have been assigned the task of spinning up  a EC2 instance in AWS , Usually it takes 5mins to login to AWS Console for single EC2 instance creation, once you get a task of 100 EC2 instances then it will consume more time & margin of error will be high due to manual work.
+Suppose you are the Devops engineer of your organization and you have been assigned the task of spinning up  a EC2 instance in AWS , Usually it takes 5mins to login to AWS Console for single EC2 instance creation, once you get a task of 100 EC2 instances then it will consume more time & margin of error will be high due to manual work.
 
 ## Why Terraform ?
 
