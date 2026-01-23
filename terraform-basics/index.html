@@ -49,6 +49,10 @@
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#what-is-terraform">What is Terraform?</a>
     </li>
+    <li class="toctree-l2"><a class="reference internal" href="#why-terraform">Why Terraform ?</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#what-is-provider">What is Provider?</a>
+    </li>
     <li class="toctree-l2"><a class="reference internal" href="#key-concepts">Key Concepts</a>
     </li>
     </ul>
@@ -89,6 +93,13 @@
                 <h1 id="terraform-basics">Terraform Basics</h1>
 <h2 id="what-is-terraform">What is Terraform?</h2>
 <p>Terraform is an Infrastructure as Code (IaC) tool by HashiCorp.</p>
+<p>Suppose you are the Devops engineer and you have been assigned the task of spinning up  a EC2 instance in AWS , Usually it takes 5mins to login to AWS Console for single EC2 instance creation, once you get a task of 100 EC2 instances then it will consume more time &amp; margin of error will be high due to manual work.</p>
+<h2 id="why-terraform">Why Terraform ?</h2>
+<p>Nowadays almost all cloud providers has their own set of automation tools for automating the infra. So AWS has CFT (CloudFormation Template), Azure has ARM Template, Biceps for automating the infra. So learning all this tools for each cloud isn't that easy for any devops engg.
+So Terraform provides a uniform platform for provisioning the infra using Multiple providers so that devops engg don't have to worry about learning new language as such , it uses HCL [Hashi Corp Language]</p>
+<p>Terraform supports multiple providers Like AWS, GCP , AZURE, Alibaba</p>
+<h2 id="what-is-provider">What is Provider?</h2>
+<p>Provider is nothing but plugins, plugins communicate with each cloud providers API for provisioning infra.</p>
 <h2 id="key-concepts">Key Concepts</h2>
 <ul>
 <li>Providers</li>
