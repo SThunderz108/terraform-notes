@@ -7,10 +7,10 @@ Suppose you are the Devops engineer and you have been assigned the task of spinn
 
 ## Why Terraform ?
 
-1. **MultiCloud support** : Nowadays almost all cloud providers has their own set of automation tools for automating the infra. So AWS has CFT (CloudFormation Template), Azure has ARM Template, Biceps for automating the infra. So learning all this tools for each cloud isn't that easy for any devops engg.
+1. **MultiCloud support** : Nowadays almost all cloud providers has their own set of automation tools for automating the infra. So AWS has CFT (CloudFormation Template), Azure has ARM     Template, Biceps for automating the infra. So learning all this tools for each cloud isn't that easy for any devops engg.
 So Terraform provides a uniform platform for provisioning the infra using Multiple providers so that devops engg don't have to worry about learning new language as such , it uses HCL [Hashi Corp Language]
 
-Terraform supports multiple providers Like AWS, GCP , AZURE, Alibaba
+ Terraform supports multiple providers Like AWS, GCP , AZURE, Alibaba
 
 2. **Large EcoSystem** : Terraform has a vast ecosystem of providers and modules contributed by both HashiCorp and the community.
 3. **Declarative Syntax** : It uses declarative syntax which means allowing you to specify desired end state for your infrastructe and also it makes easier to understand  code.
