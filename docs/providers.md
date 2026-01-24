@@ -1,7 +1,9 @@
 Providers are nothing but plugins used by Terraform to communicate with third-party API for defining the infrastructure.
+
 So Terraform connects to multiple cloud providers using API as a code.
 
 In Terraform configuration file demo.tf you can use multiple providers in the same config file
+
 
 Example : Demo.tf
 
