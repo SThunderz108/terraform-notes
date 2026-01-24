@@ -80,7 +80,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                
+                <p>Providers are nothing but plugins used by Terraform to communicate with third-party API for defining the infrastructure.</p>
+<p>So Terraform connects to multiple cloud providers using API as a code.</p>
+<p>In Terraform configuration file demo.tf you can use multiple providers in the same config file</p>
+<p>Example : Demo.tf</p>
+<p>resource local_file "fruits" {
+   filename = "/root/fruits.txt"
+   content = "Mango is the king of fruits"
+}</p>
+<p>resource "aws_instance" "webservers" {
+  ami           = "ami-0c2f25c1f622021ff4d"
+  instance_type = "t2.large"
+}</p>
+<p>Here in the above example 2 Providers has been define 1st is <strong>Local</strong> , 2nd is the <strong>AWS</strong> provider</p>
+<p>Here Two resource has been defined in the demo.tf</p>
+<p><strong>resource local_file "fruits"</strong>
+resource : It's the resource block defined.
+local_file : It has 2 parts , Here <strong>local</strong> is the provider after underscore (_) <strong>file</strong> its the <strong>resource type</strong>.
+fruits : It's the resource name which we define, it can be anything.</p>
+<p><strong>resource "aws_instance" "webservers"</strong>
+resource : It's the resource block defined.
+aws_instance : It has 2 parts , Here <strong>AWS</strong> is the provider after underscore (_) <strong>instance</strong> its the <strong>resource type</strong>.</p>
               
             </div>
           </div><footer>
