@@ -1,4 +1,4 @@
-Providers are nothing but plugins used by Terraform to communicate with third-party API for defining the infrastructure
+Providers are nothing but plugins used by Terraform to communicate with third-party API for defining the infrastructure.
 So Terraform connects to multiple cloud providers using API as a code.
 
 In Terraform configuration file demo.tf you can use multiple providers in the same config file
@@ -17,6 +17,7 @@ resource "aws_instance" "webservers" {
 
 
 
+
 Here in the above example 2 Providers has been define 1st is **Local** , 2nd is the **AWS** provider
 
 Here Two resource has been defined in the demo.tf
@@ -30,4 +31,5 @@ fruits : It's the resource name which we define, it can be anything.
 **resource "aws_instance" "webservers"**
 resource : It's the resource block defined.
 aws_instance : It has 2 parts , Here **AWS** is the provider after underscore (_) **instance** its the **resource type**.
+
 
