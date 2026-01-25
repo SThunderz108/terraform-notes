@@ -35,3 +35,22 @@ resource : It's the resource block defined.
 aws_instance : It has 2 parts , Here **AWS** is the provider after underscore (_) **instance** its the **resource type**.
 
 
+
+**Initializing Your Working Directory**
+
+After creating your configuration file initialize the working directory by running below command:
+
+```bash
+$ terraform init
+
+Once the terraform init is run it basically downloads and installs necessary plugins mentioned in the configuration file.
+
+```bash
+$ terraform init
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Finding latest version of hashicorp/local...
+- Installing hashicorp/local v2.0.1...
+- Installed hashicorp/local v2.0.1 (signed by HashiCorp)
