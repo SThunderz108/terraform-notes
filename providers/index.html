@@ -101,6 +101,18 @@ fruits : It's the resource name which we define, it can be anything.</p>
 <p><strong>resource "aws_instance" "webservers"</strong>
 resource : It's the resource block defined.
 aws_instance : It has 2 parts , Here <strong>AWS</strong> is the provider after underscore (_) <strong>instance</strong> its the <strong>resource type</strong>.</p>
+<p><strong>Initializing Your Working Directory</strong></p>
+<p>After creating your configuration file initialize the working directory by running below command:</p>
+<p>```bash
+$ terraform init</p>
+<p>Once the terraform init is run it basically downloads and installs necessary plugins mentioned in the configuration file.</p>
+<p>```bash
+$ terraform init</p>
+<p>Initializing the backend...</p>
+<p>Initializing provider plugins...
+- Finding latest version of hashicorp/local...
+- Installing hashicorp/local v2.0.1...
+- Installed hashicorp/local v2.0.1 (signed by HashiCorp)</p>
               
             </div>
           </div><footer>
